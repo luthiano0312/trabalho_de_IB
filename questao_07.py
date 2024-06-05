@@ -7,8 +7,7 @@ nota2 = int(input("qual foi a nota bimestral: "))
 media = (nota1 + nota2)/2
 
 if media >= 6:
-    situacao = "aprovado"
+    print(aluno,"está aprovado na disciplina",disciplina)
 else:
-    situacao = "reprovado"
+    print(aluno,"está reprovado na disciplina",disciplina)
 
-print(aluno,"está",situacao,"na disciplina",disciplina)

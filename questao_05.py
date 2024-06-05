@@ -1,10 +1,10 @@
 hora = int(input("informe a hora: "))
 
-if 5<hora<13:
+if 0<=hora<12:
     print("agora é manhã")
-elif 12<hora<19:
+elif 11<hora<18:
     print("agora é tarde")
-elif 18<hora<24 or -1<hora<6:
+elif 17<hora<24:
     print("agora é noite")
 else:
     print("essa hora não existe")
